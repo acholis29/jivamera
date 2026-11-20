@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="1200" height="1200" role="img" aria-labelledby="jvLogoTitle">
+  <title id="jvLogoTitle">Jivamera — Nature's Wisdom, Naturally Radiant.</title>
+  <defs>
+    <linearGradient id="jvGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7E7BC"/>
+      <stop offset=".35" stop-color="#D9B65C"/>
+      <stop offset=".62" stop-color="#A9822F"/>
+      <stop offset="1" stop-color="#EED79A"/>
+    </linearGradient>
+    <linearGradient id="jvGoldVert" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3DFA8"/>
+      <stop offset=".55" stop-color="#C9A44C"/>
+      <stop offset="1" stop-color="#8C6A22"/>
+    </linearGradient>
+    <filter id="jvGlow" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+  </defs>
+
+  <circle cx="180" cy="180" r="166" fill="none" stroke="#E9CE8A" stroke-width="7" opacity=".3" filter="url(#jvGlow)"/>
+  <circle cx="180" cy="180" r="166" fill="none" stroke="url(#jvGold)" stroke-width="5.5"/>
+  <path d="M180 8l3.6 5.8-3.6 5.8-3.6-5.8Z" fill="url(#jvGold)"/>
+  <path d="M180 340.4l3.6 5.8-3.6 5.8-3.6-5.8Z" fill="url(#jvGold)"/>
+
+  <g transform="translate(76 62) scale(1.04)" fill="url(#jvGold)" stroke="#6E5318" stroke-opacity=".28" stroke-width=".9" stroke-linejoin="round">
+    <path d="M100 140C70 120 34 114 3 126c29 30 69 36 97 14Z"/>
+    <path d="M100 140c30-20 66-26 97-14-29 30-69 36-97 14Z"/>
+    <path d="M0 0C22-38 30-82 0-118-30-82-22-38 0 0Z" transform="translate(100 146) rotate(-40) scale(.92)"/>
+    <path d="M0 0C22-38 30-82 0-118-30-82-22-38 0 0Z" transform="translate(100 146) rotate(40) scale(.92)"/>
+    <path d="M0 0C24-46 33-94 0-138-33-94-24-46 0 0Z" transform="translate(100 148)"/>
+  </g>
+  <path d="M180 137.6c9.4 20.8 12.5 39.5 0 60.3-12.5-20.8-9.4-39.5 0-60.3Z" fill="url(#jvGoldVert)" opacity=".95"/>
+
+  <text x="180" y="272" text-anchor="middle" font-family="Cormorant Garamond, Georgia, 'Times New Roman', serif" font-size="47" font-weight="500" letter-spacing="5.2" fill="#F8F4EA">JIVAMERA</text>
+  <text x="180" y="309" text-anchor="middle" font-family="Cormorant Garamond, Georgia, 'Times New Roman', serif" font-size="13.5" font-style="italic" letter-spacing=".5" fill="#EADFC4">— Nature’s Wisdom, Naturally Radiant. —</text>
+</svg>

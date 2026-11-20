@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "name": "Nadia S.",
+      "initials": "NS",
+      "location": "Jakarta",
+      "product": "Frangipani Day Cream",
+      "rating": 5,
+      "quote": "“Aroma kamboja-nya seperti membawa saya kembali ke Ubud setiap pagi. Kulit terasa tenang dan lembap sepanjang hari.”"
+    },
+    {
+      "name": "Clarissa W.",
+      "initials": "CW",
+      "location": "Surabaya",
+      "product": "Golden Serum",
+      "rating": 5,
+      "quote": "“Serum emasnya menyerap cepat dan tidak lengket. Setelah tiga minggu, bekas jerawat mulai memudar dan kulit terasa lebih kenyal.”"
+    },
+    {
+      "name": "Anindya P.",
+      "initials": "AP",
+      "location": "Bandung",
+      "product": "Herbal Body Lotion",
+      "rating": 5,
+      "quote": "“Akhirnya skincare lokal yang terasa benar-benar premium—dari tekstur, aroma, sampai kemasannya. Saya beri sebagai hadiah, dan semuanya jatuh cinta.”"
+    }
+  ]
+}

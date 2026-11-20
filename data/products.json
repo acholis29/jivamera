@@ -1,0 +1,36 @@
+{
+  "locale": "id-ID",
+  "currency": "IDR",
+  "items": [
+    {
+      "id": "frangipani-day-cream",
+      "name": "Frangipani Day Cream",
+      "category": "Pelembap Wajah",
+      "size": "50 ml",
+      "description": "Krim ringan dengan ekstrak kamboja dan niacinamide—melembapkan, menenangkan, dan menyamarkan kusam.",
+      "price": 289000,
+      "badge": { "label": "Best Seller", "tone": "gold" },
+      "art": "cream"
+    },
+    {
+      "id": "golden-serum",
+      "name": "Golden Serum",
+      "category": "Serum Wajah",
+      "size": "30 ml",
+      "description": "Kunyit emas, bakuchiol, dan squalane dalam tekstur ringan yang menyerap cepat untuk elastisitas dan kilau sehat.",
+      "price": 349000,
+      "badge": { "label": "Baru", "tone": "new" },
+      "art": "serum"
+    },
+    {
+      "id": "herbal-body-lotion",
+      "name": "Herbal Body Lotion",
+      "category": "Losion Tubuh",
+      "size": "200 ml",
+      "description": "Kelapa, pandan, dan shea butter menutrisi kulit tubuh—melembapkan hingga 24 jam dengan aroma taman Bali.",
+      "price": 219000,
+      "badge": { "label": "Ritual Favorit", "tone": "soft" },
+      "art": "lotion"
+    }
+  ]
+}

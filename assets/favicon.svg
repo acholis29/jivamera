@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="jvFavTitle">
+  <title id="jvFavTitle">Jivamera</title>
+  <defs>
+    <linearGradient id="jvFavGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7E7BC"/>
+      <stop offset=".4" stop-color="#D9B65C"/>
+      <stop offset=".7" stop-color="#A9822F"/>
+      <stop offset="1" stop-color="#EED79A"/>
+    </linearGradient>
+    <radialGradient id="jvFavBg" cx=".5" cy=".38" r=".72">
+      <stop offset="0" stop-color="#1B4C34"/>
+      <stop offset="1" stop-color="#07160F"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#jvFavBg)"/>
+  <circle cx="32" cy="32" r="25.5" fill="none" stroke="url(#jvFavGold)" stroke-width="1.7"/>
+  <g transform="translate(20.5 23.2) scale(.115)" fill="url(#jvFavGold)">
+    <path d="M100 140C70 120 34 114 3 126c29 30 69 36 97 14Z"/>
+    <path d="M100 140c30-20 66-26 97-14-29 30-69 36-97 14Z"/>
+    <path d="M0 0C22-38 30-82 0-118-30-82-22-38 0 0Z" transform="translate(100 146) rotate(-40) scale(.92)"/>
+    <path d="M0 0C22-38 30-82 0-118-30-82-22-38 0 0Z" transform="translate(100 146) rotate(40) scale(.92)"/>
+    <path d="M0 0C24-46 33-94 0-138-33-94-24-46 0 0Z" transform="translate(100 148)"/>
+  </g>
+</svg>
