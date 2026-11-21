@@ -50,7 +50,7 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=6" />
+    <link rel="stylesheet" href="styles.css?v=7" />
     <script>
       document.documentElement.classList.add("js");
     </script>
@@ -243,7 +243,7 @@
     <div class="scroll-progress" aria-hidden="true">
       <span id="scrollBar"></span>
     </div>
-    <a class="skip-link" href="#koleksi">Lewati ke koleksi</a>
+    <a class="skip-link" href="#filosofi">Lewati ke filosofi</a>
 
     <!-- ── Header ─────────────────────────────────────────────────── -->
     <header class="site-header" id="siteHeader">
@@ -256,12 +256,12 @@
         </a>
 
         <nav class="main-nav" id="mainNav" aria-label="Navigasi utama">
-          <a href="#koleksi">Koleksi</a>
+          <a href="#koleksi" hidden>Koleksi</a>
           <a href="#filosofi">Filosofi</a>
           <a href="#bahan">Bahan</a>
           <a href="#ritual">Ritual</a>
           <div class="nav-mobile-cta">
-            <a class="btn btn-gold" href="#koleksi">Belanja Sekarang</a>
+            <a class="btn btn-gold" href="#koleksi" hidden>Belanja Sekarang</a>
             <p>Alam Bali, dalam setiap tetes.</p>
           </div>
         </nav>
@@ -271,6 +271,7 @@
             class="icon-btn cart-btn"
             id="cartBtn"
             aria-label="Tas ritual, 0 item"
+            hidden
           >
             <svg
               viewBox="0 0 24 24"
@@ -284,7 +285,7 @@
             </svg>
             <span class="cart-count" id="cartCount">0</span>
           </button>
-          <a class="btn btn-gold header-cta" href="#koleksi">Belanja</a>
+          <a class="btn btn-gold header-cta" href="#koleksi" hidden>Belanja</a>
           <button
             class="menu-toggle"
             id="menuToggle"
@@ -559,8 +560,8 @@
             Discover a more natural expression of beauty.
           </p>
           <div class="hero-actions" data-reveal>
-            <a class="btn btn-gold" href="#koleksi">
-              Jelajahi Koleksi
+            <a class="btn btn-gold" href="#bahan">
+              Kenali Bahan
               <svg
                 viewBox="0 0 20 20"
                 fill="none"
@@ -731,7 +732,8 @@
       </section>
 
       <!-- ── Koleksi ──────────────────────────────────────────────── -->
-      <section class="section collection" id="koleksi">
+      <!-- Disembunyikan sementara. Hapus atribut hidden untuk menampilkan kembali. -->
+      <section class="section collection" id="koleksi" hidden>
         <div class="container">
           <header class="section-head">
             <div>
@@ -968,7 +970,7 @@
           </ol>
 
           <div class="ritual-cta" data-reveal>
-            <a class="btn btn-gold" href="#koleksi">Mulai Ritual Anda</a>
+            <a class="btn btn-gold" href="#bahan">Kenali Bahan</a>
           </div>
         </div>
       </section>
@@ -1071,7 +1073,7 @@
 
     <!-- ── Footer ─────────────────────────────────────────────────── -->
     <footer class="site-footer">
-      <div class="container footer-top">
+      <div class="container footer-top footer-top--no-shop">
         <div class="footer-brand">
           <a
             class="brand-lockup"
@@ -1149,7 +1151,8 @@
           </div>
         </div>
 
-        <nav class="footer-col" aria-label="Belanja">
+        <!-- Kolom belanja disembunyikan mengikuti section koleksi. -->
+        <nav class="footer-col" aria-label="Belanja" hidden>
           <h3>Belanja</h3>
           <a href="#koleksi">Semua Produk</a>
           <a href="#koleksi">Best Sellers</a>

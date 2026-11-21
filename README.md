@@ -40,7 +40,8 @@ assets/editorial-portrait.jpg   Fallback JPEG
 2. **Marquee** — pita nilai brand (BPOM, botani, cruelty-free, reef safe).
 3. **Filosofi** — cerita brand, potret editorial, tanda tangan founder, dan
    statistik.
-4. **Koleksi** — tiga produk unggulan dengan tombol tambah ke tas ritual.
+4. **Koleksi** — tiga produk unggulan dengan tombol tambah ke tas ritual
+   (disembunyikan sementara mengikuti permintaan brand).
 5. **Bahan** — empat botani utama beserta manfaatnya.
 6. **Ritual** — tiga langkah perawatan harian.
 7. **Quote & Testimoni** — bukti sosial dan kutipan founder.
@@ -168,7 +169,7 @@ satu file gagal dimuat, bagian terkait menampilkan pesan kesalahan.
 - Keranjang hanya menghitung item di memori; muat ulang halaman akan
   meresetnya.
 - Hormati `prefers-reduced-motion` — animasi sudah dimatikan otomatis.
-- `index.html` memuat `styles.css?v=6` dan `script.js?v=2`. Naikkan angka
+- `index.html` memuat `styles.css?v=7` dan `script.js?v=2`. Naikkan angka
   versi tersebut setelah mengubah CSS/JS agar browser tidak memakai cache lama.
 
 ## Kredit
