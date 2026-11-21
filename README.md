@@ -168,7 +168,7 @@ satu file gagal dimuat, bagian terkait menampilkan pesan kesalahan.
 - Keranjang hanya menghitung item di memori; muat ulang halaman akan
   meresetnya.
 - Hormati `prefers-reduced-motion` — animasi sudah dimatikan otomatis.
-- `index.html` memuat `styles.css?v=3` dan `script.js?v=2`. Naikkan angka
+- `index.html` memuat `styles.css?v=4` dan `script.js?v=2`. Naikkan angka
   versi tersebut setelah mengubah CSS/JS agar browser tidak memakai cache lama.
 
 ## Kredit

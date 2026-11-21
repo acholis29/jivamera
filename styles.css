@@ -1306,6 +1306,10 @@ body.menu-open .brand { opacity: 0; pointer-events: none; }
   text-transform: uppercase;
   color: rgba(233, 206, 138, .65);
 }
+/* Testimoni sedang disembunyikan: rapatkan jarak sebelum newsletter. */
+.quote-band:has(+ .testimonials[hidden]) {
+  padding-bottom: clamp(56px, 6vw, 80px);
+}
 
 /* ── Testimonials ────────────────────────────────────────────── */
 .testimonials {
