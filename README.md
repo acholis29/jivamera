@@ -29,6 +29,8 @@ data/testimonials.json   Data testimoni pelanggan
 assets/jivamera-logo.svg Logo lengkap (SVG transparan)
 assets/jivamera-mark.svg Emblem/logo mark (SVG transparan)
 assets/favicon.svg       Favicon
+assets/editorial-portrait.webp  Foto editorial (WebP)
+assets/editorial-portrait.jpg   Fallback JPEG
 ```
 
 ## Bagian halaman
@@ -36,7 +38,8 @@ assets/favicon.svg       Favicon
 1. **Hero** — panggung utama dengan ilustrasi candi Bali, emblem lotus, dan
    dua ajakan utama.
 2. **Marquee** — pita nilai brand (BPOM, botani, cruelty-free, reef safe).
-3. **Filosofi** — cerita brand, tanda tangan founder, dan statistik.
+3. **Filosofi** — cerita brand, potret editorial, tanda tangan founder, dan
+   statistik.
 4. **Koleksi** — tiga produk unggulan dengan tombol tambah ke tas ritual.
 5. **Bahan** — empat botani utama beserta manfaatnya.
 6. **Ritual** — tiga langkah perawatan harian.
@@ -150,6 +153,9 @@ satu file gagal dimuat, bagian terkait menampilkan pesan kesalahan.
   lengkap di `assets/jivamera-logo.svg`, dan favicon di `assets/favicon.svg`.
   Di halaman, emblem memakai SVG inline dan wordmark memakai tipografi situs
   agar teks tetap tajam dan proporsinya mudah diatur.
+- **Foto editorial** — ganti `assets/editorial-portrait.webp` dan `.jpg`
+  (rasio mendekati 1:1). Bingkai memakai `object-fit: cover` dengan fokus
+  vertikal di `38%`; ubah `object-position` pada `.art-portrait` bila perlu.
 - **Newsletter & keranjang** — saat ini demo sisi klien. Hubungkan
   `#newsletterForm` dan tombol `.add-btn` ke layanan email/keranjang Anda.
   Tombol dinamis tetap bekerja karena klik ditangani lewat event delegation.
@@ -157,14 +163,16 @@ satu file gagal dimuat, bagian terkait menampilkan pesan kesalahan.
 ## Catatan produksi
 
 - Ganti tautan `href="#"` pada footer dan tautan sosial dengan URL sebenarnya.
-- Tambahkan `og:image` (1200×630) bila sudah tersedia aset foto/logo resmi.
+- `og:image` memakai potret editorial dengan URL absolut `https://jivamera.com`.
+  Sesuaikan domain tersebut bila situs dipublikasikan di alamat lain.
 - Keranjang hanya menghitung item di memori; muat ulang halaman akan
   meresetnya.
 - Hormati `prefers-reduced-motion` — animasi sudah dimatikan otomatis.
-- `index.html` memuat `styles.css?v=2` dan `script.js?v=2`. Naikkan angka
+- `index.html` memuat `styles.css?v=3` dan `script.js?v=2`. Naikkan angka
   versi tersebut setelah mengubah CSS/JS agar browser tidak memakai cache lama.
 
 ## Kredit
 
 - Font: [Cormorant Garamond & Jost](https://fonts.google.com/) (SIL Open Font License).
 - Seluruh ilustrasi, ikon, ornamen, dan logo dibuat sebagai SVG di proyek ini.
+- Foto editorial: aset AI-generated yang disediakan brand.
